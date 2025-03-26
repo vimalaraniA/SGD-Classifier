@@ -15,13 +15,15 @@ Split Dataset into Training and Testing Sets
 
 
 ## Program:
-
+```
 /*
 Program to implement the prediction of iris species using SGD Classifier.
 Developed by: VIMALA RANI A
 RegisterNumber: 212223040240
 */
+```
 
+```
 
 import pandas as pd
 from sklearn.datasets import load_iris
@@ -65,6 +67,7 @@ print(f"Accuracy: {accuracy:.3f}")
 cm = confusion_matrix(y_test, y_pred)
 print("Confusion Matrix:")
 print(cm)
+```
 
 
 ## Output:
